@@ -1,0 +1,5 @@
+Initial release of Koydo WAEC Mathematics Prep.
+
+• Practise questions
+• Score tracking
+• AI tutor integration

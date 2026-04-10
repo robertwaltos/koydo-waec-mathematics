@@ -1,0 +1,45 @@
+// WAEC Mathematics Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM198",
+  slug: "waec-mathematics",
+  name: "WAEC Mathematics",
+  fullName: "WASSCE Maths",
+  alias: "WASSCE Maths",
+  family: "WASSCE",
+  category: "School exams",
+  subcategory: "Subject exam",
+  country: "West Africa",
+  region: "Africa",
+  languages: ["English"],
+  estimatedAnnualTakers: "very high",
+  testingWindow: "May-Jun",
+  schedulePattern: "Annual",
+  ageGroup: "16-20",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["Objective + theory"],
+  adaptivity: "Linear",
+  sections: "Single subject",
+  scoringMode: "Grades",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "math_foundation",
+  uiEngine: "paper_numeric",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Medium",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
